@@ -6,7 +6,6 @@ $("#todaysDate").text(`${today.format('MMMM D, YYYY')}`);
 
 
 function daysRemaining(){
-    console.log(partyDay.diff(today, 'days'));
     $("#partyDay").text(`${partyDay.diff(today, "days")} Days Remaining`);
 }
 
