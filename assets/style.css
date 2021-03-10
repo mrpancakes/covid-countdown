@@ -60,9 +60,11 @@ footer {
 
     .row {
         font-size: 1rem;
-       
     }
 
+    #partyDay {
+        font-size: 1.4rem;
+    }
     
    
 }
