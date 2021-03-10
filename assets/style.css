@@ -1,0 +1,60 @@
+body {
+    max-width: 80%;
+    margin: 40px auto;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+footer {
+    font-size: 0.9rem;
+}
+
+.row {
+    margin-bottom: 50px;
+    height: 30%;
+    font-size: 1.5rem;
+    background-color: #fafafa;
+}
+
+#today {
+    border-right: 1px solid grey;
+}
+
+#partyDay {
+    height: 50px;
+    font-size: 1.9rem;
+    background-color: #30BCED;
+    color: white;
+}
+
+@media screen and (max-width: 576px) {
+    h1 {
+        margin-bottom: 20px;
+    }
+
+    footer {
+        font-size: 0.7rem;
+    }
+
+    .row {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+    #today {
+        padding: 20px;
+        border-bottom: 1px solid gray;
+    }
+
+    #party {
+        padding: 20px;
+    }
+
+    #partyDay {
+        width: 100%;
+    }
+}
